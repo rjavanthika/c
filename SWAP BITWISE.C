@@ -2,7 +2,7 @@
 
 int main() {
     int i = 65;
-    int k = 120;
+    int k = 75;
     printf(" value of i=%d k=%d before swapping", i, k);
 
     i = i ^ k;
