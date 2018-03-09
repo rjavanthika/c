@@ -2,13 +2,13 @@
 #include<string.h>
 int main() 
 {
-	char a[100];
+	char b[100];
 	int n,i,count=0;
-	gets(s);
-	n=strlen(a);
+	scanf("%s",&b);
+	n=strlen(b);
 	for(i=0;i<n;i++)
 	{
-	    if(a[i]==' ')
+	    if(b[i]==' ')
 	    {   
 	        count++;
 	    }
